@@ -3,7 +3,7 @@
 WeatherVidget — a modern weather application with a responsive design.
 
 Technologies: HTML, CSS, JavaScript
-Uses Grid and Flexbox for a structured and flexible design
+Uses Flexbox for a structured and flexible design
 
 Features:
 ✔️ Search for weather by city name
@@ -13,7 +13,7 @@ Features:
 
 WeatherVidget — современное погодное приложение с адаптивным дизайном.
 Функционал: HTML, CSS, JavaScript.
-Применяется Grid и Flexbox для структурированного и гибкого дизайна.
+Применяется Flexbox для структурированного и гибкого дизайна.
 
 Функционал:
 ✔️ Поиск погоды по названию города
