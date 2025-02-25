@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>WeatherVidget</title>
+  </head>
+  <body>
+    <div class="weather-widget">
+      <div class="logo">AppWheather</div>
+      <div class="city-input-container">
+        <input type="search" id="city-input" placeholder="Enter city name" />
+      </div>
+      <div class="location" id="location"></div>
+      <div class="forecast-container" id="forecast-container"></div>
+    </div>
+    <script type="module" src="js/cityInput.js"></script>
+    <script type="module" src="js/infCountry.js"></script>
+    <script type="module" src="js/script.js"></script>
+    <script type="module" src="js/displayWeather.js"></script>
+  </body>
+</html>
