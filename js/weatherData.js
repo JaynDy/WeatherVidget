@@ -3,7 +3,7 @@ import { displayWeatherData } from "./displayWeather.js";
 
 export const forecastUrl =
   "https://api.openweathermap.org/data/2.5/forecast?q=CITY_NAME&units=metric&appid=" +
-  apiKey;
+  "dcfe9474dd3ab3c882f9356b26a09dba";
 
 export async function fetchWeatherData(city) {
   try {
