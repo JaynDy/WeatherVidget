@@ -27,7 +27,7 @@ window.addEventListener("load", async () => {
 async function getCityName(lat, lon) {
   const url =
     `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=metric&appid=` +
-    apiKey;
+    "dcfe9474dd3ab3c882f9356b26a09dba";
 
   try {
     const response = await fetch(url);
