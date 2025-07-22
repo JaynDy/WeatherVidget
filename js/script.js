@@ -2,7 +2,7 @@ import { apiKey } from "../config.js";
 import { cityInput } from "./cityInput.js";
 import { fetchDataAndDisplay } from "./weatherData.js";
 
-const defaultCity = "Belgrad";
+const defaultCity = "Belgrade";
 
 window.addEventListener("load", async () => {
   if (navigator.geolocation) {
