@@ -1,4 +1,3 @@
-import { apiKey } from "../config.js";
 import { displayWeatherData } from "./displayWeather.js";
 
 export const forecastUrl =

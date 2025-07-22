@@ -1,4 +1,3 @@
-import { apiKey } from "../config.js";
 import { cityInput } from "./cityInput.js";
 import { fetchDataAndDisplay } from "./weatherData.js";
 
