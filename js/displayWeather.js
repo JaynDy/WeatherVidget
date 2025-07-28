@@ -38,8 +38,9 @@ export function displayWeatherData(data) {
     </div>
     
     <div class="current-weather-desc">
-      <p>${currentDescription}</p>
       <b>${cityAndCountry}</b>
+      <p>${currentDescription}</p>
+      
     </div>
 
     <div class="current-weather-img">
