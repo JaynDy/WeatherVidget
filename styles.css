@@ -52,6 +52,30 @@ input[type="search"]::-webkit-search-cancel-button {
   margin-right: 20px;
 }
 
+.city-suggestions {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  max-height: 150px;
+  width: calc(100% - 16px - 16px);
+  z-index: 1000;
+}
+
+.city-suggestions li {
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.city-suggestions li.active,
+.city-suggestions li:hover {
+  background-color: #f0f0f0;
+}
+
 .location {
   padding: 11px 15px;
   font-size: 12px;
